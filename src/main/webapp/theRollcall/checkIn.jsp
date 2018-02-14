@@ -36,7 +36,7 @@ ${ errorss }
 </c:if>
 <h1 style="text-align:center;">Check In</h1>
 
-<form action="sDate" method="post">
+<form action="/setDate" method="post">
 	<div class="form-group">
 		<label for="name">查詢姓名:</label>
 		<input type="text" class="form-control" id="name" name="name" placeholder="請輸入姓名" value="${ param.name }"/>
