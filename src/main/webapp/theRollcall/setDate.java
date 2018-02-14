@@ -19,7 +19,7 @@ import java.sql.*;
 /**
  * Servlet implementation class setDate
  */
-@WebServlet("/theRollcall/sDate")
+//@WebServlet("/theRollcall/sDate")
 public class setDate extends HttpServlet {
 	private static final long serialVersionUID = 1L;
        
