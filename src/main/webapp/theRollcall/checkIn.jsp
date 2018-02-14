@@ -23,7 +23,7 @@
 
 <body>
 <div style="width:250px;" class="container">
-<%-- ${ errorss }--%>
+${ errorss }
 <c:if test= "${not empty errorMsgs }">
   <script>
   $( function() {
